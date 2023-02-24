@@ -1,0 +1,142 @@
+body {
+    background: #2c2c2c;
+
+}
+
+aside {
+    float: left;
+    background: #181818;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+    margin-bottom: 20%;
+}
+
+aside img {
+    width: 80px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+}
+
+aside h3 {
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+aside ul {list-style: none}
+aside ul li {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: red;
+    transform: scale(1.05);
+
+}
+
+aside a {
+    text-decoration: none;
+}
+
+main .feautures {
+    float: left;
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+main .feautures h1 {font-size: 50px;}
+main .feautures p {
+    max-width: 400px; margin: 20px auto; 
+}
+
+.alert-warning img {
+    width: 100px;
+    margin-right: 5px;
+}
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: center;
+}
+
+.feautures h2 {
+    margin-top: -7%;
+    margin-left: 78px;
+    margin-bottom: 10%;
+}
+
+.feautures h1 {
+    margin-top: -10%;
+    margin-bottom: 10%;
+    margin-right: -8%;
+}
+
+.feautures h3 {
+    margin-top: 0%;
+    margin-left: 0px;
+    margin-bottom: 10%;
+}
+
+form {
+    margin-left: 32%;
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+/* Стили для навигационного меню */
+ul.down-text {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul.down-text li {
+    display: block;
+    padding: 10px;
+  }
+  
+  /* Стили для кнопки задать вопрос */
+   .btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+  }
+  
+  .btn-info:hover {
+    background-color: #11707a;
+    border-color: #11707a;
+  } 
+  
+  
+  /* Стили для текста */
+  p {
+    font-family: Arial, sans-serif;
+    color: #666;
+    line-height: 1.5em;
+  }
+  
+  /* Стили для изображений */
+  img {
+    max-width: 100%;
+    height: auto;
+  }

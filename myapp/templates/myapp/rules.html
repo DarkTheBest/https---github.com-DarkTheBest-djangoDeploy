@@ -1,0 +1,10 @@
+{% extends 'myapp/base.html' %}
+
+{% block content %}
+    {% for el in rules %}
+    <div class="feautures">
+        <h3>{{ el.title }}</h3>
+        <p>{{ el.text }}</p>
+    </div>    
+    {% endfor %}
+{% endblock %}

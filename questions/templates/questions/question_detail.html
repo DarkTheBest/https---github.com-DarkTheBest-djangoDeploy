@@ -1,0 +1,12 @@
+{% extends 'myapp/base.html' %}
+
+{% block title %}{{ question.title }}{% endblock %}
+
+{% block content %}
+    <div class="feautures">
+        <h3>{{ question.title }}</h3>
+        <p> {{ question.text }} </p>
+        <a href="{% url 'question-delete' question.id %}" class="btn btn-danger">Удалить</a>
+        <a href="{% url 'question-update' question.id %}" class="btn btn-info">Редактировать</a>
+    </div>
+{% endblock %}

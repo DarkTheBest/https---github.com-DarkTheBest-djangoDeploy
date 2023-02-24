@@ -1,0 +1,13 @@
+{% extends 'myapp/base.html' %}
+
+{% block title %}Форум | {{ block.super }}{% endblock %}
+
+{% block content %}
+<div class="feautures">
+    <h2> Главная </h3>
+    {% for el in data %}
+    <div class="alert alert-warning">
+        <p>{{ el.content }}</p>
+    </div>
+    {% endfor %}
+{% endblock %}

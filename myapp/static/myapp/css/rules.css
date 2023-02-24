@@ -1,0 +1,39 @@
+/* Стили для заголовка */
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Стили для контейнера с правилами */
+  .rule-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Стили для заголовков правил */
+  .rule-title {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Стили для текста правил */
+  .rule-text {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Стили для ссылок на другие страницы */
+  .rule-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .rule-link:hover {
+    text-decoration: underline;
+  }

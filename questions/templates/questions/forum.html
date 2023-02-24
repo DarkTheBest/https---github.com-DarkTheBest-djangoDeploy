@@ -1,0 +1,16 @@
+{% extends 'myapp/base.html' %}
+
+{% block title %}Форум{% endblock  %}
+
+{% block content %}
+    <div class="feautures">
+        <h1> Вопросы </h1>
+        {% for el in question %}
+            <div class="alert alert-warning">
+                <h3>{{ el.title }}</h3>
+                <p>{{ el.text }}</p>
+                <a href="{% url 'questions-detail' el.id %}" class="btn btn-warning">Ответить</a>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
